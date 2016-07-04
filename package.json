@@ -1,0 +1,24 @@
+{
+  "name": "md.converter",
+  "version": "1.0.0",
+  "description": "Simple markdown to html converter with `markdown-it`",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo Hello",
+      "run": "coffee -c index.litcoffee && node index.js",
+      "clean": "rm -r -f index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxcvbnius/markdownConverter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxcvbnius/markdownConverter/issues"
+  },
+  "homepage": "https://github.com/zxcvbnius/markdownConverter#readme",
+  "dependencies": {
+    "markdown-it": "^7.0.0"
+  }
+}
