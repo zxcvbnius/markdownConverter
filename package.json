@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
       "test": "echo Hello",
-      "run": "coffee -c index.litcoffee && node index.js",
-      "clean": "rm -r -f index.js index.html"
+      "convert": "coffee -c index.litcoffee && node index.js"
   },
   "repository": {
     "type": "git",
