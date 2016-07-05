@@ -5,7 +5,7 @@ Simple markdown to html converter with `markdown-it` and `coffeescript` to gener
 # Install Dependencies
 
 ```shell
-$ cd. && npm install
+$ cd . && npm install
 ```
 
 # Command Line Interface
@@ -29,7 +29,7 @@ Simple markdown to html converter with `markdown-it` and `coffeescript` to gener
 
 ## Prerequisites
 
-You have to install (NPM)[https://github.com/nodejs-tw/nodejs-wiki-book/blob/master/zh-tw/node_npm.rst] and (COFFEESCRIPT)[http://coffeescript.org/] first
+You have to install [NPM](https://github.com/nodejs-tw/nodejs-wiki-book/blob/master/zh-tw/node_npm.rst) and [COFFEESCRIPT](http://coffeescript.org/) first
 
 
 ## Command Line
@@ -57,14 +57,16 @@ Diuit uses conventional HTTP response codes to indicate the success or failure o
 | col 3         |         $512  |    40  |
 
 
-# Customize Note
+# Customize Note Example
 
 ```info
 repositories { "maven { "url 'https://dl.bintray.com/duolc/maven' "} "}
 ```
+
 ```warning
 repositories { "maven { "url 'https://dl.bintray.com/duolc/maven' "} "}
 ```
+
 ```success
 repositories { "maven { "url 'https://dl.bintray.com/duolc/maven' "} "}
 ```
@@ -83,7 +85,7 @@ would generate
 </div>
 ```
 
-# Coding Language
+# Coding Language Example
 
 ```java
 Diuit.listChat()
